@@ -23,6 +23,7 @@ app.get('/desactivar', (req, res) => {
    arreglo.push('desactivar');
   res.status(200).send({ "message":"Modo Celular desactivado"});
 	arreglo=new Array();
+	arreglo.push('desactivar');
 });
 
 
